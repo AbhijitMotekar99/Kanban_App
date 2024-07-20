@@ -4,12 +4,12 @@ import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
 import { getFunctions, connectFunctionsEmulator } from "firebase/functions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBRd8dwPqdB4JWT7Cn1O0QnkA5iFnPjHOA",
-  authDomain: "kanban-137ec.firebaseapp.com",
-  projectId: "kanban-137ec",
-  storageBucket: "kanban-137ec.appspot.com",
-  messagingSenderId: "669190432536",
-  appId: "1:669190432536:web:d2de96e5ca13baf5eea06d"
+    apiKey: "YOUR_NEW_API_KEY",
+    authDomain: "YOUR_NEW_AUTH_DOMAIN",
+    projectId: "kanban-137ec",
+    storageBucket: "YOUR_NEW_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_NEW_MESSAGING_SENDER_ID",
+    appId: "YOUR_NEW_APP_ID",
 };
 
 // Initialize Firebase
